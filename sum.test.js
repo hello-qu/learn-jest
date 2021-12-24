@@ -17,5 +17,5 @@ test('Promise resolved', () => {
 // 测试 async/await 断言
 test('test await', async () => {
   const testResult = await awaitFn();
-  expect(testResult).toBe('hello world');
+  expect(testResult).toBe('hello world!');
 });
